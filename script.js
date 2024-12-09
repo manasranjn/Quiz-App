@@ -124,7 +124,7 @@ function deselectAnswers() {
     answerEl.forEach(answerEl => answerEl.checked = false);
 }
 
-function getElementById() {
+function getSelected() {
     let answer
 
     answerEl.forEach(answerEl => {
